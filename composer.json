@@ -4,13 +4,19 @@
     "type": "library",
     "license": "LGPL-3.0-only",
     "require": {
-        "pocketmine/pocketmine-mp": "^5.0",
         "muqsit/simple-packet-handler": "dev-pm5"
+    },
+    "require-dev": {
+        "nethergamesmc/pocketmine-mp": "dev-stable"
     },
     "autoload": {
         "psr-4": {"CortexPE\\Commando\\": ["src/CortexPE/Commando/"]}
     },
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:BlockBrawn/PocketMine-MP.git"
+        },
         {
             "type": "vcs",
             "url": "git@github.com:BlockBrawn/SimplePacketHandler.git"
