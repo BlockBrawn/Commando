@@ -8,7 +8,7 @@
         "blockbrawn/simple-packet-handler": "dev-pm5"
     },
     "require-dev": {
-        "blockbrawn/pocketmine-mp": "dev-stable"
+        "nethergamesmc/pocketmine-mp": "dev-stable"
     },
     "autoload": {
         "psr-4": {"CortexPE\\Commando\\": ["src/CortexPE/Commando/"]}
