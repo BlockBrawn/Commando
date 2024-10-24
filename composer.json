@@ -1,27 +1,18 @@
 {
-    "name": "paroxity/commando",
+    "name": "blockbrawn/commando",
     "description": "A Command Framework virion for PocketMine-MP ",
     "type": "library",
     "license": "LGPL-3.0-only",
+    "minimum-stability": "dev",
     "require": {
-        "muqsit/simple-packet-handler": "dev-pm5"
+        "blockbrawn/simple-packet-handler": "dev-pm5"
     },
     "require-dev": {
-        "nethergamesmc/pocketmine-mp": "dev-stable"
+        "blockbrawn/pocketmine-mp": "dev-stable"
     },
     "autoload": {
         "psr-4": {"CortexPE\\Commando\\": ["src/CortexPE/Commando/"]}
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:BlockBrawn/PocketMine-MP.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:BlockBrawn/SimplePacketHandler.git"
-        }
-    ],
     "extra": {
         "virion": {
             "spec": "3.0",
