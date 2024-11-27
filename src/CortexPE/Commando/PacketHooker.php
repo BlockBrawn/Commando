@@ -151,7 +151,7 @@ class PacketHooker implements Listener {
 					$refClass = new ReflectionClass(CommandEnum::class);
 					$refProp = $refClass->getProperty("enumName");
 					$refProp->setAccessible(true);
-					$refProp->setValue($param->enum, "enum#" . spl_object_id($param->enum));
+					$refProp->setValue($param->enum, $param->enum->getName());
 				}
 			}
 			$combinations[] =  new CommandOverload(false, $set);
